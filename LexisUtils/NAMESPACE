@@ -1,6 +1,5 @@
 export(AC2AP)
 export(AP2AC)
-export(APmatrix)
 export(LexRef5)
 export(LexisMapAP)
 export(PC2AC)

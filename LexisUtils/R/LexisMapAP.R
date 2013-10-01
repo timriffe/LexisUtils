@@ -83,7 +83,7 @@ LexisMapAP <- function(APmatrix,
 #' @docType data
 #' @references \url{www.mortality.org}
 #' @keywords data
-#' @export
+#'
 NULL
 
 #' A small set of utility functions for working with demographic data matrices and plotting.
