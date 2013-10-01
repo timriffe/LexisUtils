@@ -21,9 +21,9 @@ ages  <- as.integer(rownames(APmatrix))
 years <- as.integer(colnames(APmatrix))
 
 contour(x = years + .5, 
-                y = ages+.5,
-                z = log(t(APmatrix)),
-                add = TRUE, 
-                drawlabels = FALSE)
+        y = ages+.5,
+        z = log(t(APmatrix)),
+        add = TRUE, 
+        drawlabels = FALSE)
 LexRef5(years = years, ages = ages)
 ```
