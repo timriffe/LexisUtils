@@ -27,4 +27,7 @@ contour(x = years + .5,
         drawlabels = FALSE)
 # semi-transparent Lexis reference lines:
 LexRef5(years = years, ages = ages)
+
+# or try an age-cohort surface:
+LexisMapAP(AP2AC(APmatrix))
 ```
