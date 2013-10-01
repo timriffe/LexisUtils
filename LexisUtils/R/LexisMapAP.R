@@ -30,7 +30,7 @@ LexisMapAP <- function(APmatrix,
     # settings optimized for mortality, rather rigid
     if (log){
         # user can override by specifying args via ...
-        colRamp         <- colorRampPalette(brewer.pal(9, "Spectral"), space = "Lab")
+        colRamp         <- colorRampPalette(rev(brewer.pal(9, "Spectral"), space = "Lab"))
         brks            <- seq(-10, 1, by = .2)
         ticks           <- 10 ^ (-5:1) %o% seq(1:9)
         labs            <- ticks
