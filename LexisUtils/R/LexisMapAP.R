@@ -12,7 +12,7 @@
 #' 
 #' @importFrom grDevices colorRampPalette
 #' @importFrom RColorBrewer brewer.pal
-#' @importFrom fields impage.plot
+#' @importFrom fields image.plot
 #' 
 #' @author Tim Riffe
 #' 
