@@ -1,4 +1,4 @@
-Package: LifeTable
+Package: LexisUtils
 Type: Package
 Title: LexisUtils, a package with a small set of useful functions for dealing
     with demographic data.
