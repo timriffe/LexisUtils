@@ -21,3 +21,7 @@ Imports:
 Collate:
     'LexisMapAP.R'
     'LexRef5.R'
+    'AC2AP.R'
+    'AP2AC.R'
+    'PC2AC.R'
+    'PC2AP.R'
