@@ -4,8 +4,8 @@ LexisUtils
 A small set of functions for working with demographic data matrices and for plotting them
 
 ########## some example code to get started ###################
-##library(devtools)
-##install_github("LexisUtils", subdir = "LexisUtils", username = "timriffe")
+## library(devtools)
+## install_github("LexisUtils", subdir = "LexisUtils", username = "timriffe")
 library(LexisUtils)
 
 ## loads matrix called 'APmatrix', US male mortality rates in Lexis squares
