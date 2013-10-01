@@ -1,0 +1,5 @@
+export(LexRef5)
+export(LexisMapAP)
+importFrom(RColorBrewer,brewer.pal)
+importFrom(fields,impage.plot)
+importFrom(grDevices,colorRampPalette)
