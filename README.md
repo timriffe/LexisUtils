@@ -25,5 +25,6 @@ contour(x = years + .5,
         z = log(t(APmatrix)),
         add = TRUE, 
         drawlabels = FALSE)
+# semi-transparent Lexis reference lines:
 LexRef5(years = years, ages = ages)
 ```
