@@ -77,9 +77,9 @@ LexisMapAP <- function(APmatrix,
     }
 }
 
-#' USmx AP matrix of US male mortality rates, ages0-110+, 1933-2010 (HMD)
+#' APmatrix AP matrix of US male mortality rates, ages 0-110+, 1933-2010 (HMD)
 #'
-#' @name USmx
+#' @name APmatrix
 #' @docType data
 #' @references \url{www.mortality.org}
 #' @keywords data
