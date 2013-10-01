@@ -99,10 +99,4 @@ NULL
 #' LexisMapAP(USmx)
 #' 
 #' 
-#' 
-#' 
-#' 
-#' 
-#' 
-#' 
 NULL
