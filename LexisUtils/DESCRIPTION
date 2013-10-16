@@ -2,8 +2,8 @@ Package: LexisUtils
 Type: Package
 Title: LexisUtils, a package with a small set of useful functions for dealing
     with demographic data.
-Version: 1.0.0
-Date: 2013-09-30
+Version: 1.0.1
+Date: 2013-10-15
 Author: Tim Riffe
 Maintainer: Tim Riffe <tim.riffe@gmail.com>
 Description: Some functions for manipulating matrices containing demographic
@@ -16,12 +16,11 @@ Depends:
 Imports:
     grDevices,
     reshape2,
-    RColorBrewer,
-    fields
+    RColorBrewer
 Collate:
-    'LexisMapAP.R'
     'LexRef5.R'
     'AC2AP.R'
     'AP2AC.R'
     'PC2AC.R'
     'PC2AP.R'
+    'LexisMap.R'

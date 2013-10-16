@@ -19,7 +19,7 @@
 #' @param contour logical. Default \code{FALSE}. Should contour lines be added at the breaks? These will be black and are inflexible.
 #' @param ... other optional arguments to be passed to \code{lattice::levelplot()}.
 #' 
-#' @return
+#' @return invisible trellis object. It can be \code{print()ed} later.
 #' 
 #' @importFrom grDevices colorRampPalette
 #' @importFrom RColorBrewer brewer.pal
