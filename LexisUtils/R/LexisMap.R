@@ -24,6 +24,8 @@
 #' @importFrom grDevices colorRampPalette
 #' @importFrom RColorBrewer brewer.pal
 #' @importFrom lattice levelplot
+#' @importFrom lattice panel.levelplot
+#' @importFrom lattice panel.segments
 #' 
 #' @author Tim Riffe
 #' 
