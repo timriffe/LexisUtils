@@ -16,7 +16,8 @@ Depends:
 Imports:
     grDevices,
     reshape2,
-    RColorBrewer
+    RColorBrewer,
+    lattice
 Collate:
     'LexRef5.R'
     'AC2AP.R'
