@@ -148,17 +148,20 @@ LexisMap <- function(APmatrix,
         ticklabs    <- ticks       <- pretty(APmatrix, 10) # still only gives a rough number
         breaks      <- approx(zlim, n = nbreaks)$y
     }
-    if (!missing(breaks))
-        if (LexRef){
-            LexRefN <- function(...) { 
-                N           <- 5
-                subscripts  <- FALSE
-                x           <- years
-                y           <- ages
-                col         <- refcol
-                panel.levelplot(...) 
-                # vertical
-                
+	if (!missing(breaks)){
+	
+			ticklabs    <- ticks       <- breaks
+		
+		if (LexRef){
+			LexRefN <- function(...) { 
+				N           <- 5
+				subscripts  <- FALSE
+				x           <- years
+				y           <- ages
+				col         <- refcol
+				panel.levelplot(...) 
+				# vertical
+				
                 panel.segments(x0=x[x %% N == 0],
                         y0=min(y),
                         x1=x[x %% N == 0],
@@ -208,6 +211,7 @@ LexisMap <- function(APmatrix,
                 panel.levelplot(...) 
             }
         }
+		}
 # panel function for inside levelplot():
     LexisImage <-
             levelplot(x=t(APmatrix),
