@@ -92,6 +92,7 @@ LexisMap <- function(APmatrix,
     zs <- 1 / (10^(15:(-15)))
     APmatrix[is.infinite(APmatrix)] <- NA
     if (missing(zlim) & log){
+		APmatrix[APmatrix==0] <- NA
         minz <- min(APmatrix, na.rm = TRUE)
         maxz <- max(APmatrix, na.rm = TRUE)
         zlim <- c(max(zs[zs < minz]), min(zs[zs > maxz]))
