@@ -5,7 +5,7 @@ A small set of functions for working with demographic data matrices and for plot
 ```r
 # ------------/ some example code to get started \----------------
 #library(devtools)
-#install_github("timriffe/LexisUtils", subdir = "LexisUtils")
+#install_github("timriffe/LexisUtils/LexisUtils")
 #library(LexisUtils)
 data(APmatrix)
 str(APmatrix)
